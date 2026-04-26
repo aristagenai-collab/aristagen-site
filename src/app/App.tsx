@@ -7,15 +7,15 @@ export default function App() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#fbf1e7' }}>
       {/* Navigation */}
-      <nav className="px-4 sm:px-6 md:px-12 lg:px-24 py-4 md:py-6 sticky top-0 z-50 backdrop-blur-md bg-[#fbf1e7]/90 shadow-sm">
+      <nav className="px-4 sm:px-6 md:px-12 lg:px-24 sticky top-0 z-50 backdrop-blur-md bg-[#fbf1e7]/90 shadow-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2 animate-fade-in">
-            <img
-              src="/src/app/components/logo.png"
-              className="h-14 sm:h-16 md:h-20 bg-transparent"
-              alt="Aristagen AI Logo"
-            />
+              <img
+                src="src/app/logo.png"
+                className="h-14 sm:h-16 md:h-20"
+                alt="Aristagen AI Logo"
+              ></img>
           </div>
 
           {/* Desktop Menu */}
@@ -71,9 +71,8 @@ export default function App() {
 
         {/* Mobile Menu */}
         <div
-          className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${
-            mobileMenuOpen ? 'max-h-64 opacity-100 mt-4' : 'max-h-0 opacity-0'
-          }`}
+          className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${mobileMenuOpen ? 'max-h-64 opacity-100 mt-4' : 'max-h-0 opacity-0'
+            }`}
         >
           <div className="flex flex-col gap-4 py-4 px-2">
             <a
