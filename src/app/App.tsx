@@ -11,11 +11,12 @@ export default function App() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2 animate-fade-in">
+            <span>
               <img
                 src="src/app/logo.png"
                 className="h-14 sm:h-16 md:h-20"
                 alt="Aristagen AI Logo"
-              />
+              /></span>
           </div>
 
           {/* Desktop Menu */}
