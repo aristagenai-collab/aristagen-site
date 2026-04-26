@@ -12,7 +12,7 @@ export default function App() {
           {/* Logo */}
           <div className="flex items-center gap-2 animate-fade-in">
               <img
-                src="Public/logo.png"
+                src="./logo.png"
                 className="h-14 sm:h-16 md:h-20"
                 alt="Aristagen AI Logo"
               />
