@@ -11,13 +11,24 @@ export default function App() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2 animate-fade-in">
-            <span >
-              <img
-                src="src/app/logo.png"
-                className="h-14 sm:h-16 md:h-20"
-                alt="Aristagen AI Logo"
-              /></span>
+            <style>{`
+              @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+              
+              .aristagen-logo {
+                font-family: 'Poppins', sans-serif;
+                font-size: clamp(1.5rem, 5vw, 2.5rem);
+                font-weight: 800;
+                letter-spacing: -0.04em;
+                color: #c93e2b;
+                text-transform: uppercase;
+                line-height: 1;
+                margin: 0;
+                padding: 0.5rem 0;
+              }
+            `}</style>
+            <h2 className="aristagen-logo">Aristagen</h2>
           </div>
+          
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-6 lg:gap-8">
